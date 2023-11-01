@@ -1,0 +1,251 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+.gradindex {
+    height: 100vh;
+    background: linear-gradient(to right, #C06262, #9F5CA6, #8092CF, #84D39A, #DCD87F);
+}
+
+.gradpop {
+    height: 100vh;
+    background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
+}
+
+.gradalt {
+    height: 100vh;
+    background: linear-gradient(70deg, #92451a, #da7070, #d9ac6a);
+}
+
+.gradele {
+    height: 100vh;
+    background: linear-gradient(110deg, #41c49d, #6381e6, #d952e6);
+}
+
+.gradjpop {
+    height: 100vh;
+    background: linear-gradient(70deg, #7f5090, #d496c5);
+}
+
+.gradfilm {
+    height: 100vh;
+    background: linear-gradient(to right, #747474, #545a65, #696757, #695656, #313131);
+}
+
+h1{
+    font-kerning: auto;
+    display: inline-block;
+    position: absolute;
+    top: 9%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 450%;
+    font-weight: 900;
+    transform: scale(1.75,1);
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1:hover{
+    color:black
+}
+
+h2{
+    font-kerning: auto;
+    display: inline-block;
+    text-align: center;
+    color: #8092CF;
+    font-size: 225%;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2:hover{
+    color: black;
+}
+
+.buttonpop {
+    position: absolute;
+    top: 27%;
+    left: 43%;
+    width: 14%;
+    height: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.buttonalt {
+    position: absolute;
+    top: 41%;
+    left: 38%;
+    width: 24%;
+    height: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.buttonele {
+    position: absolute;
+    top: 55%;
+    left: 38.8%;
+    width: 22.4%;
+    height: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.buttonjpop {
+    position: absolute;
+    top: 69%;
+    left: 42.3%;
+    width: 15.4%;
+    height: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.buttonfilm {
+    position: absolute;
+    top: 83%;
+    left: 42.3%;
+    width: 15.4%;
+    height: 10%;
+    background: #ffffff;
+    border-radius: 50%;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.buttonpop:hover {
+    background: #fffcb4;
+}
+.buttonalt:hover {
+    background: #fffcb4;
+}
+.buttonele:hover {
+    background: #fffcb4;
+}
+.buttonjpop:hover {
+    background: #fffcb4;
+}
+.buttonfilm:hover {
+    background: #fffcb4;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    position: absolute;
+    opacity: 10%;
+    width: 92vw;
+    height: 45vh;
+    left: 4%;
+    top: 22%
+}
+
+.flexbox1{
+    display: flex;
+    background-color: #f1f1f1;
+    opacity: 100%;
+    height: 2%;
+    width: 2%;
+    margin: 0.25%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1%;
+}
+
+.flexbox1:hover{
+    background-color: #dfdb71;
+    transition-duration: 0.25s;
+}
+
+.flexbox0{
+    display: flex;
+    background-color: #f1f1f1;
+    opacity: 0%;
+    height: 2%;
+    width: 2%;
+    margin: 0.25%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1%;
+}
+
+.bar {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 25%;
+    left:0%;
+}
+
+h3{
+    font-kerning: auto;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 225%;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.days1{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 4%;
+}
+
+.days2{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 19%;
+}
+
+.days3{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 34%;
+}
+
+.days4{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 49%;
+}
+
+.days5{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 64%;
+}
+
+.days6{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 79%;
+}
+
+.days7{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 23%;
+    left: 94%;
+}
