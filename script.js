@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
+    console.log( "ready" );
     $(".flexbox1").hover(function(){
         $(".displayartist").children().text(`${$(this).attr('title')}`)
         console.log("hover1")

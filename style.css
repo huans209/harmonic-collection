@@ -9,6 +9,10 @@ body{
     overflow: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
 @keyframes waves {
     0%{
         background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
@@ -24,14 +28,13 @@ body{
 
    100%{
         background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
-}
+    }
 }
 
 .gradindex {
     height: 100vh;
     width: 100vw;
-    animation: waves;
-    animation-iteration-count: infinite;
+    background: linear-gradient(to right, #C06262, #9F5CA6, #8092CF, #84D39A, #DCD87F);
 }
 
 .gradpop {
@@ -101,13 +104,14 @@ h2{
     display: inline-block;
     text-align: center;
     color: #8092CF;
+    mix-blend-mode: normal;
     font-size: 200%;
     font-weight: 900;
     font-family: 'Abril Fatface', serif;
 }
 
 h2:hover{
-    color: black;
+    color: rgb(255, 255, 255);
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
 }
@@ -183,35 +187,35 @@ h2:hover{
 }
 
 .buttonpop:hover {
-    background-color: #fffcb4;
+    background-color: #000000;
     transform: scaleX(2);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
 }
 .buttonalt:hover {
-    background: #fffcb4;
+    background: #000000;
     transform: scaleX(2);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
 }
 .buttonele:hover {
-    background: #fffcb4;
+    background: #000000;
     transform: scaleX(2);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
 }
 .buttonjpop:hover {
-    background: #fffcb4;
+    background: #000000;
     transform: scaleX(2);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
 }
 .buttonfilm:hover {
-    background: #fffcb4;
+    background: #000000;
     transform: scaleX(2);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
@@ -418,7 +422,7 @@ h2:hover{
 }
 
 .flexbox1:hover{
-    background-color: #dfdb71;
+    background-color: #000000;
     transform: scaleX(2);
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
@@ -445,15 +449,15 @@ h2:hover{
     }
 
    45%{
-       background-color: #dfdb71;
+       background-color: #000000;
        transform: rotate(90deg);
-       transform: scaleX(2);
+       transform: scaleX(1.75);
    }
 
    55%{
-    background-color: #dfdb71;
+    background-color: #000000;
     transform: rotate(90deg);
-    transform: scaleX(2);
+    transform: scaleX(1.75);
     }
 
    100%{
@@ -468,7 +472,6 @@ h2:hover{
     height: 10px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
-    position: absolute;
     bottom: 25%;
     left:0%;
 }
@@ -490,10 +493,13 @@ h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.h3:hover{
+h3:hover{
+    display: inline-block;
     color:black;
-    transition-duration: 1.5s;
+    transform: scale(2, 1);
     transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-property: transform, background-color;
 }
 
 h4{
@@ -571,7 +577,7 @@ h5{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #0000001b;
+    background-color: #00000000;
     position: absolute;
     width: 100vw;
     height: 5vh;
@@ -614,5 +620,3 @@ h5{
     left: 53vw;
     top: 88%;
 }
-
-a{text-decoration: none;}
