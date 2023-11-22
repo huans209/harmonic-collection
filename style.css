@@ -5,10 +5,33 @@
     box-sizing: border-box;     
 }
 
+body{
+    overflow: hidden;
+}
+
+@keyframes waves {
+    0%{
+        background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
+    }
+
+   33%{
+        background: linear-gradient(110deg, #6985e9, #e55757, #bb73c2);
+   }
+
+   66%{
+        background: linear-gradient(110deg, #bb73c2, #6985e9, #e55757,);
+   }
+
+   100%{
+        background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
+}
+}
+
 .gradindex {
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to right, #C06262, #9F5CA6, #8092CF, #84D39A, #DCD87F);
+    animation: waves;
+    animation-iteration-count: infinite;
 }
 
 .gradpop {
@@ -68,29 +91,25 @@ h1:hover{
     src: url(harmonic-collection\Asset-Regular.ttf);
   }
 
+@font-face {
+    font-family: Abril;
+    src: url(harmonic-collection\AbrilFatface-Regular.ttf);
+  }
+
 h2{
     font-kerning: auto;
     display: inline-block;
     text-align: center;
     color: #8092CF;
-    font-size: 225%;
+    font-size: 200%;
     font-weight: 900;
-    font-family:'Abril';
+    font-family: 'Abril Fatface', serif;
 }
 
 h2:hover{
     color: black;
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
-}
-
-@font-face {
-    font-family: Abril;
-    src: url(harmonic-collection\AbrilFatface-Regular.ttf);
-  }
-
-span {
-    display: inline-block;
 }
 
 .buttonpop {
@@ -393,6 +412,9 @@ span {
     font-size: 1%;
     cursor: pointer;
     border: none;
+    animation: spin;
+    animation-duration: 1.25s;
+    animation-iteration-count: 1;
 }
 
 .flexbox1:hover{
@@ -416,6 +438,30 @@ span {
     font-size: 1%;
 }
 
+@keyframes spin {
+    0%{
+        background-color: rgb(255, 255, 255);
+        transform: rotate(90deg)
+    }
+
+   45%{
+       background-color: #dfdb71;
+       transform: rotate(90deg);
+       transform: scaleX(2);
+   }
+
+   55%{
+    background-color: #dfdb71;
+    transform: rotate(90deg);
+    transform: scaleX(2);
+    }
+
+   100%{
+       background-color: #ffffff;
+       transform: rotate(180deg);
+   }
+}
+
 .bar {
     position: absolute;
     width: 100vw;
@@ -427,6 +473,12 @@ span {
     left:0%;
 }
 
+.bar:hover{
+    transform: translateX(100vw);
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
 h3{
     font-kerning: auto;
     display: inline-block;
@@ -436,6 +488,12 @@ h3{
     font-size: 225%;
     font-weight: 900;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.h3:hover{
+    color:black;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
 }
 
 h4{
@@ -556,3 +614,5 @@ h5{
     left: 53vw;
     top: 88%;
 }
+
+a{text-decoration: none;}
