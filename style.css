@@ -14,57 +14,72 @@ a{
 }
 
 @keyframes waves {
-    0%{
-        background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
+    0% {
+        background-position: 0% 50%;
     }
-
-   33%{
-        background: linear-gradient(110deg, #6985e9, #e55757, #bb73c2);
-   }
-
-   66%{
-        background: linear-gradient(110deg, #bb73c2, #6985e9, #e55757,);
-   }
-
-   100%{
-        background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
+    100% {
+        background-position: 100% 50%;
     }
 }
 
 .gradindex {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(to right, #C06262, #9F5CA6, #8092CF, #84D39A, #DCD87F);
+    background: linear-gradient(to right, #C06262, #9F5CA6, #8092CF, #84D39A, #DCD87F, #C06262, #9F5CA6, #8092CF);;
+    background-repeat: no-repeat;
+    background-size: 400% 100%;
+    animation: waves 10s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .gradpop {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9);
+    background: linear-gradient(110deg, #e55757, #bb73c2, #6985e9, #bb73c2, #e55757, #bb73c2, #6985e9);
+    background-repeat: no-repeat;
+    background-size: 350% 100%;
+    animation: waves 7s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .gradalt {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(70deg, #92451a, #da7070, #d9ac6a);
+    background: linear-gradient(70deg, #92451a, #da7070, #d9ac6a, #da7070, #92451a, #da7070, #d9ac6a);
+    background-repeat: no-repeat;
+    background-size: 350% 100%;
+    animation: waves 7s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .gradele {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(110deg, #41c49d, #6381e6, #d952e6);
+    background: linear-gradient(110deg, #41c49d, #6381e6, #d952e6, #6381e6, #41c49d, #6381e6, #d952e6);
+    background-repeat: no-repeat;
+    background-size: 350% 100%;
+    animation: waves 7s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .gradjpop {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(70deg, #7f5090, #d496c5);
+    background: linear-gradient(70deg, #7f5090, #d496c5, #7f5090, #d496c5, #7f5090, #d496c5);
+    background-repeat: no-repeat;
+    background-size: 300% 100%;
+    animation: waves 7s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .gradost {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(to right, #747474, #545a65, #696757, #695656, #313131);
+    background: linear-gradient(to right, #747474, #545a65, #696757, #695656, #747474, #545a65, #696757, #695656, #747474);
+    background-repeat: no-repeat;
+    background-size: 450% 100%;
+    animation: waves 7s linear infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
 }
 
 h1{
@@ -103,7 +118,7 @@ h2{
     font-kerning: auto;
     display: inline-block;
     text-align: center;
-    color: #8092CF;
+    color: #737ec2;
     mix-blend-mode: normal;
     font-size: 200%;
     font-weight: 900;
@@ -1154,6 +1169,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 5%;
+    cursor: pointer;
 }
 
 .days2{
@@ -1161,6 +1177,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 19.7%;
+    cursor: pointer;
 }
 
 .days3{
@@ -1168,6 +1185,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 34.3%;
+    cursor: pointer;
 }
 
 .days4{
@@ -1175,6 +1193,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 49%;
+    cursor: pointer;
 }
 
 .days5{
@@ -1182,6 +1201,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 63.7%;
+    cursor: pointer;
 }
 
 .days6{
@@ -1189,6 +1209,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 78.3%;
+    cursor: pointer;
 }
 
 .days7{
@@ -1196,6 +1217,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 93%;
+    cursor: pointer;
 }
 
 .displaybox{
