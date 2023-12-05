@@ -8,5 +8,11 @@ $( document ).ready(function() {
         $(".displaydash").children().text(`-`)
         console.log("hoverdash")
      });
+     $(".flexbox1").children().click(function(){
+        $("#flexdot").animate({
+            opacity: '1',},2000,function(){
+        });
+        console.log("hoverbefore")
+    })
 
 });
