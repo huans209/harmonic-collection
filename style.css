@@ -82,6 +82,36 @@ a{
     flex-direction: row;
 }
 
+@font-face {
+    font-family: BT Brik XXL;
+    src: url(harmonic-collection\BTBrikXXL.otf) format ("otf");
+}
+
+@font-face {
+    font-family: Mama;
+    src: url(harmonic-collection\Mama-Regular.ttf) format ("ttf");
+}
+
+@font-face {
+    font-family: FSP DEMO - Norman Fat;
+    src: url(harmonic-collection\NormanFat.otf) format ("otf");
+}
+
+@font-face {
+    font-family: AURORA PRO;
+    src: url(harmonic-collection\AURORA-PRO.ttf) format ("ttf");
+}
+
+@font-face {
+    font-family: Asset;
+    src: url(harmonic-collection\Asset-Regular.ttf);
+}
+
+@font-face {
+    font-family: Druk Wide Bold;
+    src: url(harmonic-collection\Bruk-Wide-Bold.ttf) format ("ttf");
+}
+
 h1{
     font-kerning: auto;
     display: inline-block;
@@ -90,46 +120,36 @@ h1{
     width: 100vw;
     text-align: center;
     color: white;
-    font-size: 350%;
+    font-size: 450%;
     font-weight: 900;
-    transform: scale(1,1.2);
-    font-family:'Asset';
+    transform: scale(1.5,1);
+    font-family: Druk Wide Bold;
 }
 
 h1:hover{
     color:black;
-    transform: scale(1.4, 1.2);
+    transform: scale(2.2, 1);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
 }
 
-@font-face {
-    font-family: Asset;
-    src: url(harmonic-collection\Asset-Regular.ttf);
-  }
-
-@font-face {
-    font-family: Abril;
-    src: url(harmonic-collection\AbrilFatface-Regular.ttf);
-  }
-
 h2{
     font-kerning: auto;
     display: inline-block;
     text-align: center;
-    color: #737ec2;
-    mix-blend-mode: normal;
     font-size: 100%;
     font-weight: 400;
     transform: scale(1, 1.7);
     font-family: 'Asset', serif;
+    mix-blend-mode: normal;
 }
 
 h2:hover{
     color: rgb(255, 255, 255);
     transition-timing-function: ease-in-out;
     transition-duration: 0.5s;
+    mix-blend-mode: normal;
 }
 
 .buttonpop {
@@ -144,6 +164,7 @@ h2:hover{
     align-items: center;
     justify-content: center;
     display: flex;
+    mix-blend-mode: lighten;
 }
 
 .buttonalt {
@@ -158,6 +179,7 @@ h2:hover{
     align-items: center;
     justify-content: center;
     display: flex;
+    mix-blend-mode: lighten;
 }
 
 .buttonele {
@@ -172,6 +194,7 @@ h2:hover{
     align-items: center;
     justify-content: center;
     display: flex;
+    mix-blend-mode: lighten;
 }
 
 .buttonjpop {
@@ -186,6 +209,7 @@ h2:hover{
     align-items: center;
     justify-content: center;
     display: flex;
+    mix-blend-mode: lighten;
 }
 
 .buttonost {
@@ -200,14 +224,16 @@ h2:hover{
     align-items: center;
     justify-content: center;
     display: flex;
+    mix-blend-mode: lighten;
 }
 
 .buttonpop:hover {
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     transform: scaleX(2);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
+    mix-blend-mode: luminosity;
 }
 .buttonalt:hover {
     background: #000000;
@@ -215,6 +241,7 @@ h2:hover{
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
+    mix-blend-mode: luminosity;
 }
 .buttonele:hover {
     background: #000000;
@@ -222,6 +249,7 @@ h2:hover{
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
+    mix-blend-mode: luminosity;
 }
 .buttonjpop:hover {
     background: #000000;
@@ -229,6 +257,7 @@ h2:hover{
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
+    mix-blend-mode: luminosity;
 }
 .buttonost:hover {
     background: #000000;
@@ -236,6 +265,7 @@ h2:hover{
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: transform, background-color;
+    mix-blend-mode: luminosity;
 }
 
 
