@@ -1352,7 +1352,7 @@ h2:hover{
     display: flex;
     align-self: center;
     background-color: #000000;
-    opacity: 0%;
+    opacity: 100%;
     height: 50%;
     width: 50%;
     border-radius: 50%;
