@@ -1,18 +1,33 @@
 $( document ).ready(function() {
     console.log( "ready" );
     $(".flexbox1").hover(function(){
-        $(".displayartist").children().text(`${$(this).attr('id1')}`)
+        $(".displayartist").children().text(`${$(this).attr('data-1')}`)
         console.log("hoverartist")
-        $(".displaytrack").children().text(`${$(this).attr('id2')}`)
+        $(".displaytrack").children().text(`${$(this).attr('data-2')}`)
         console.log("hovertrack")
         $(".displaydash").children().text(`-`)
         console.log("hoverdash")
      });
      $(".flexbox1").click(function(){
-        $("#flexdot").animate({
-            opacity: '1',},2000,function(){
-        });
-        console.log("hoverbefore")
+        $(this).toggleClass("flexdot")
+        // $("#flexdot").animate({
+        //     opacity: '1',},1000,function(){
+        // });
+        console.log("clickbefore")
     })
-
+    $(".buttonpop").hover(function(){
+        $(".gradindex").toggleClass("gradpop")
+     });
+     $(".buttonalt").hover(function(){
+        $(".gradindex").toggleClass("gradalt")
+     });
+     $(".buttonele").hover(function(){
+        $(".gradindex").toggleClass("gradele")
+     });
+     $(".buttonjpop").hover(function(){
+        $(".gradindex").toggleClass("gradjpop")
+     });
+     $(".buttonost").hover(function(){
+        $(".gradindex").toggleClass("gradost")
+     });
 });
