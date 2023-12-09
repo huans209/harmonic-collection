@@ -293,6 +293,19 @@ h2:hover{
     }
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    width: 100vw;
+    height: 58vh;
+    left: 0%;
+    top: 17%;
+    cursor: crosshair;
+}
+
 .container1{
     display: flex;
     flex-direction: column;
@@ -308,6 +321,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container2{
@@ -325,6 +339,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container3{
@@ -342,6 +357,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container4{
@@ -359,6 +375,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container5{
@@ -376,6 +393,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container6{
@@ -393,6 +411,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container7{
@@ -410,6 +429,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container8{
@@ -427,6 +447,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container9{
@@ -444,6 +465,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container10{
@@ -461,6 +483,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container11{
@@ -478,6 +501,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container12{
@@ -495,6 +519,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container13{
@@ -512,6 +537,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container14{
@@ -529,6 +555,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container15{
@@ -546,6 +573,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container16{
@@ -563,6 +591,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container17{
@@ -580,6 +609,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container18{
@@ -597,6 +627,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container19{
@@ -614,6 +645,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container20{
@@ -631,6 +663,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container21{
@@ -648,6 +681,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container22{
@@ -665,6 +699,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container23{
@@ -682,6 +717,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container24{
@@ -699,6 +735,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container25{
@@ -716,6 +753,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container26{
@@ -733,6 +771,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container27{
@@ -750,6 +789,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container28{
@@ -767,6 +807,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container29{
@@ -784,6 +825,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container30{
@@ -801,6 +843,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container31{
@@ -818,6 +861,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container32{
@@ -835,6 +879,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container33{
@@ -852,6 +897,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container34{
@@ -869,6 +915,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container35{
@@ -886,6 +933,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container36{
@@ -903,6 +951,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container37{
@@ -920,6 +969,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container38{
@@ -937,6 +987,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container39{
@@ -954,6 +1005,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container40{
@@ -971,6 +1023,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container41{
@@ -988,6 +1041,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container42{
@@ -1005,6 +1059,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container43{
@@ -1022,6 +1077,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container44{
@@ -1039,6 +1095,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container45{
@@ -1056,6 +1113,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container46{
@@ -1073,6 +1131,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container47{
@@ -1090,6 +1149,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container48{
@@ -1107,6 +1167,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container49{
@@ -1124,6 +1185,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container50{
@@ -1141,6 +1203,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container51{
@@ -1158,6 +1221,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container52{
@@ -1175,6 +1239,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container53{
@@ -1192,6 +1257,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container54{
@@ -1209,6 +1275,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container55{
@@ -1226,6 +1293,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container56{
@@ -1243,6 +1311,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container57{
@@ -1260,6 +1329,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container58{
@@ -1277,6 +1347,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container59{
@@ -1294,6 +1365,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container60{
@@ -1311,6 +1383,7 @@ h2:hover{
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .flexbox1{
@@ -1321,9 +1394,9 @@ h2:hover{
     width: 50%;
     margin-bottom: 10%;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: crosshair;
     border: none;
-    animation: spin;
+    animation: flash;
     animation-duration: 1.25s;
     animation-iteration-count: 1;
 }
@@ -1345,6 +1418,7 @@ h2:hover{
     width: 50%;
     margin-bottom: 10%;
     border-radius: 50%;
+    cursor: crosshair;
 }
 
 .flexdot{
@@ -1355,7 +1429,7 @@ h2:hover{
     width: 50%;
     margin-bottom: 10%;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: crosshair;
     border: none;
 }
 
@@ -1367,7 +1441,7 @@ h2:hover{
     transition-property: background-color, transform;
 }
 
-@keyframes spin {
+@keyframes flash {
     0%{
         background-color: rgb(255, 255, 255);
         transform: rotate(180deg)
@@ -1399,6 +1473,7 @@ h2:hover{
     background-color: #ffffff;
     bottom: 25%;
     left:0%;
+    cursor: wait;
 }
 
 .bar:hover{
@@ -1463,6 +1538,7 @@ h4{
     font-size: 200%;
     font-weight: 900;
     font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 h5{
@@ -1474,6 +1550,7 @@ h5{
     font-size: 200%;
     font-weight: 900;
     font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 .days1{
@@ -1481,7 +1558,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 5%;
-    cursor: pointer;
+    cursor: ew-resize;
 }
 
 .days2{
@@ -1489,7 +1566,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 19.7%;
-    cursor: pointer;
+    cursor: ew-resize;
 }
 
 .days3{
@@ -1497,7 +1574,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 34.3%;
-    cursor: pointer;
+    cursor: ew-resize;
 }
 
 .days4{
@@ -1505,7 +1582,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 49%;
-    cursor: pointer;
+    cursor: ew-resize;
 }
 
 .days5{
@@ -1513,7 +1590,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 63.7%;
-    cursor: pointer;
+    cursor: ew-resize;
 }
 
 .days6{
@@ -1521,7 +1598,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 78.3%;
-    cursor: pointer;
+    cursor: ew-resize;
 }
 
 .days7{
@@ -1529,19 +1606,7 @@ h5{
     font-family: 'Times New Roman', Times, serif;
     bottom: 23%;
     left: 93%;
-    cursor: pointer;
-}
-
-.displaybox{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #00000000;
-    position: absolute;
-    width: 100vw;
-    height: 5vh;
-    left: 0%;
-    top: 86%;
+    cursor: ew-resize;
 }
 
 .displayartist{
@@ -1554,6 +1619,7 @@ h5{
     height: 5vh;
     left: 2vw;
     top: 86%;
+    cursor: default;
 }
 
 .displaydash{
@@ -1566,6 +1632,7 @@ h5{
     height: 5vh;
     left: 49.5vw;
     top: 86%;
+    cursor: default;
 }
 
 .displaytrack{
@@ -1578,4 +1645,5 @@ h5{
     height: 5vh;
     left: 53vw;
     top: 86%;
+    cursor: default;    
 }
