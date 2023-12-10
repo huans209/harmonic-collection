@@ -8,10 +8,22 @@ $( document ).ready(function() {
       $(".displaydash").children().text(`-`)
       console.log("hoverdash")
    });
-
    $(".flexbox1").click(function(){
       $(this).toggleClass("flexdot")
       console.log("clickbefore")
+   })
+
+   $(".spbox1").hover(function(){
+      $(".displayartist").children().text(`${$(this).attr('data-1')}`)
+      console.log("sphoverartist")
+      $(".displaytrack").children().text(`${$(this).attr('data-2')}`)
+      console.log("sphovertrack")
+      $(".displaydash").children().text(`-`)
+      console.log("sphoverdash")
+   });
+   $(".spbox1").click(function(){
+      $(this).toggleClass("spdot")
+      console.log("spclickbefore")
    })
 
    $(".buttonpop").hover(function(){

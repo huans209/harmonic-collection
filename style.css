@@ -22,6 +22,36 @@ a{
     }
 }
 
+@keyframes nebula {
+    0% {
+        background-position: 0% 0%;
+    }
+    12.5%{
+        background-position: -150% -150%;
+    }
+    25%{
+        background-position: 0% 0%;
+    }
+    37.5%{
+        background-position: -150% 150%;
+    }
+    50%{
+        background-position: 0% 0%;
+    }
+    62.5%{
+        background-position: 150% -150%;
+    }
+    75%{
+        background-position: 0% 0%;
+    }
+    87.5%{
+        background-position: 150% 150%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
 .gradindex {
     background: linear-gradient(to right, #868686, #9d9d9d, #868686, #646464, #868686, #9d9d9d, #868686);
     background-repeat: no-repeat;
@@ -82,6 +112,24 @@ a{
     flex-direction: row;
 }
 
+.gradvoid {
+    background: rgb(0, 0, 0);
+    background-size: 100% 100%;
+    height: 125vh;
+    width: 100vw;
+}
+
+.gradspace {
+    width: 100vw;
+    height: 100vw;
+    background: radial-gradient(#ffffff,#a3a3a3 15%, #585858 30%, #000000 60%);
+    background-repeat: no-repeat;
+    background-size: 101% 101%;
+    margin-left: 0%;
+    margin-top: -25%;
+    animation: nebula 15s ease-in-out infinite;
+}
+
 @font-face {
     font-family: BT Brik XXL;
     src: url(harmonic-collection\BTBrikXXL.otf) format ("otf");
@@ -113,7 +161,6 @@ a{
 }
 
 h1{
-    font-kerning: auto;
     display: inline-block;
     position: absolute;
     top: 7vh;
@@ -291,6 +338,53 @@ h2:hover{
     100%{
         transform: translateY(0%)
     }
+}
+
+.spcontainer{
+    display:flex;
+    flex-direction: column;
+    background-color: #ffffff00;
+    position: absolute;
+    width: 90vw;
+    height: 69vh;
+    left: 5%;
+    top: 17%;
+    cursor: crosshair;
+}
+
+.spcontainer1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1vw;
+    height: 56vh;
+    left: 5%;
+    top: 26%;
+    animation: nebula;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    cursor: crosshair;
+}
+.spcontainer40{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1vw;
+    height: 56vh;
+    left: 45%;
+    top: 26%;
+    animation: nebula;
+    animation-duration: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    cursor: crosshair;
 }
 
 .container{
@@ -1386,9 +1480,57 @@ h2:hover{
     cursor: crosshair;
 }
 
+.spbox1{
+    display: flex;
+    background-color: #000000;
+    opacity: 100%;
+    height: 2.857%;
+    width: 80%;
+    margin-bottom: 5%;
+    border-radius: 100%;
+    cursor: crosshair;
+    border: none;
+}
+.spbox1:hover{
+    background-color: #ffffff;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, transform;
+}
+.spbox0{
+    align-items: center;
+    display: flex;
+    background-color: #000000;
+    opacity: 0%;
+    height: 2.857%;
+    width: 80%;
+    margin-bottom: 5%;
+    border-radius: 100%;
+    cursor: crosshair;
+}
+.spdot{
+    display: flex;
+    background-color: #ffffff;
+    opacity: 100%;
+    height: 2.857%;
+    width: 80%;
+    margin-bottom: 5%;
+    border-radius: 100%;
+    cursor: crosshair;
+    border: none;
+}
+.spdot:hover{
+    background-color: #000000;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, transform;
+}
+
 .flexbox1{
     display: flex;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     opacity: 100%;
     height: 9%;
     width: 50%;
@@ -1400,7 +1542,6 @@ h2:hover{
     animation-duration: 1.25s;
     animation-iteration-count: 1;
 }
-
 .flexbox1:hover{
     background-color: #000000;
     transform: scaleX(2);
@@ -1408,11 +1549,10 @@ h2:hover{
     transition-timing-function: ease-in-out;
     transition-property: background-color, transform;
 }
-
 .flexbox0{
     align-items: center;
     display: flex;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     opacity: 0%;
     height: 9%;
     width: 50%;
@@ -1420,7 +1560,6 @@ h2:hover{
     border-radius: 50%;
     cursor: crosshair;
 }
-
 .flexdot{
     display: flex;
     background-color: #000000;
@@ -1432,7 +1571,6 @@ h2:hover{
     cursor: crosshair;
     border: none;
 }
-
 .flexdot:hover{
     background-color: #ffffff;
     transform: scaleX(2);
@@ -1440,7 +1578,6 @@ h2:hover{
     transition-timing-function: ease-in-out;
     transition-property: background-color, transform;
 }
-
 @keyframes flash {
     0%{
         background-color: rgb(255, 255, 255);
@@ -1475,7 +1612,6 @@ h2:hover{
     left:0%;
     cursor: wait;
 }
-
 .bar:hover{
     transform: translateX(100vw);
     transition-duration: 1.5s;
@@ -1492,7 +1628,6 @@ h3{
     font-weight: 900;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 h3:hover{
     color:black;
     animation: leftright, color, translateX;
@@ -1500,7 +1635,6 @@ h3:hover{
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
-
 @keyframes leftright {
     0%{
         color: rgb(0, 0, 0);
@@ -1540,7 +1674,6 @@ h4{
     font-family:'Times New Roman', Times, serif;
     cursor: pointer;
 }
-
 h5{
     font-kerning: auto;
     display: inline-block;
@@ -1560,7 +1693,6 @@ h5{
     left: 5%;
     cursor: ew-resize;
 }
-
 .days2{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
@@ -1568,7 +1700,6 @@ h5{
     left: 19.7%;
     cursor: ew-resize;
 }
-
 .days3{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
@@ -1576,7 +1707,6 @@ h5{
     left: 34.3%;
     cursor: ew-resize;
 }
-
 .days4{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
@@ -1584,7 +1714,6 @@ h5{
     left: 49%;
     cursor: ew-resize;
 }
-
 .days5{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
@@ -1592,7 +1721,6 @@ h5{
     left: 63.7%;
     cursor: ew-resize;
 }
-
 .days6{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
@@ -1600,7 +1728,6 @@ h5{
     left: 78.3%;
     cursor: ew-resize;
 }
-
 .days7{
     position: absolute;
     font-family: 'Times New Roman', Times, serif;
@@ -1621,7 +1748,6 @@ h5{
     top: 86%;
     cursor: default;
 }
-
 .displaydash{
     display: flex;
     flex-direction: column;
@@ -1634,7 +1760,6 @@ h5{
     top: 86%;
     cursor: default;
 }
-
 .displaytrack{
     display: flex;
     flex-direction: column;
