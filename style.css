@@ -2569,7 +2569,7 @@ h4{
     font-size: 200%;
     font-weight: 900;
     font-family:'Times New Roman', Times, serif;
-    cursor: pointer;
+    cursor: default;
 }
 h5{
     font-kerning: auto;
@@ -2580,7 +2580,7 @@ h5{
     font-size: 200%;
     font-weight: 900;
     font-family:'Times New Roman', Times, serif;
-    cursor: pointer;
+    cursor: default;
 }
 
 .days1{
@@ -2673,13 +2673,30 @@ h5{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    background-color: #ff000000;
     position: absolute;
-    width: 4vw;
+    text-align: center;
+    width: 100vw;
     height: 3vh;
-    left: 96.5vw;
-    top: 97.5%;
+    left: 0vw;
+    top: 91%;
     cursor: default; 
+    animation: countmove 10s infinite;
+}
+
+@keyframes countmove{
+    0%{
+        transition: translate(0,0);
+    }
+    30%{
+        transition: translate(15%,15%);
+    }
+    60%{
+        transition: translate(-15%, 15%);
+    }
+    100%{
+        transition: translate(0,0);
+    }
 }
 h6{
     font-kerning: auto;

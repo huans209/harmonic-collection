@@ -8,7 +8,20 @@ $( document ).ready(function() {
       console.log("hovertrack")
       $(".displaydash").children().text(`-`)
       console.log("hoverdash")
+      // var x = document.getElementsByClassName($(".flexbox1").attr('data-3')); 
+      // function playAudio(){
+      //    x.play();
+      //    console.log("playingsound")
+      // }
+      // playAudio();
    });
+
+   // var x = document.getElementsByClassName($(".flexbox1").attr('data-3')); 
+   // x.preload = 'auto';
+   // x.onloadeddata = function () {
+   // }; 
+   // x.play();
+
    $(".flexbox1").bind("click",function(){
       $(this).toggleClass("flexdot")
       console.log("clicked")
@@ -69,9 +82,16 @@ $( document ).ready(function() {
       $(".gradindex").toggleClass("gradost")
    });
 
-   var chord = $("#chordswell")[0];
-   $("#flexbox1").mouseenter (function() {
-      chord.play();
-   });
-   console.log("hoveraudio")
-});
+   // var chord = $("#chordswell")[0];
+   // $("#flexbox1").mouseenter (function() {
+   //    chord.play();
+   // });
+   // console.log("hoveraudio")
+   // });
+
+   // var x = document.getElementById("chordswell"); 
+
+   // function playAudio(){
+   //    x.play();
+   // }
+})
