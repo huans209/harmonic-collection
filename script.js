@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    console.log( "ready" );
+    console.log( "ready" )
 
    $(".flexbox1").hover(function(){
       $(".displayartist").children().text(`${$(this).attr('data-1')}`)
@@ -9,14 +9,35 @@ $( document ).ready(function() {
       $(".displaydash").children().text(`-`)
       console.log("hoverdash")
    });
-   $(".flexbox1").click(function(){
+   $(".flexbox1").bind("click",function(){
       $(this).toggleClass("flexdot")
       console.log("clicked")
+      $(this).unbind("click")
    })
+
+   let counterDisplayElem = document.querySelector('.displaycount');
+   counter= 0
+   $(".hidspbox1").one("mouseenter",()=>{
+      console.log("revealbox")
+      counter++;
+      counterDisplayElem.innerHTML = (counter + "/153")
+   })
+
+   // counter=0
+   // $(".displaycount").one("mouseenter",()=>{
+   //    counter=num("spbox1")
+   //    console.log("revealcounter")
+   // })
+   // $(".displaycount").text(`${(counter)}/152`)
+
+   // let counts = num(spbox1);
+   // function updated() {
+   //     let count = document.getElementById("counter");
+   //     count.innerHTML = counter++;
+   // }
 
    $(".hidspbox1").one("mouseenter",function(){
       $(this).toggleClass("spbox1")
-      console.log("reveal")
    })
    $(".hidspbox1").hover(function(){
       $(".displayartist").children().text(`${$(this).attr('data-1')}`)
@@ -24,13 +45,14 @@ $( document ).ready(function() {
       $(".displaytrack").children().text(`${$(this).attr('data-2')}`)
       console.log("sphovertrack")
       $(".displaydash").children().text(`-`)
-      console.log("sphoverdash")
+      console.log()
    });
-   $(".hidspbox1").click(function(){
+   $(".hidspbox1").bind("click",function(){
       $(this).toggleClass("spdot")
       console.log("spclicked")
+      $(this).unbind("click")
    })
-
+   
    $(".buttonpop").hover(function(){
       $(".gradindex").toggleClass("gradpop")
    });

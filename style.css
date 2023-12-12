@@ -122,7 +122,7 @@ a{
 .gradspace {
     width: 100vw;
     height: 100vh;
-    background: radial-gradient(#bbbbbb,#999999 10%, #666666 30%, #333333 50%, #000000 70%);
+    background: radial-gradient(#bbbbbb, #999999 10%, #666666 30%, #333333 50%, #000000 70%);
     background-repeat: no-repeat;
     background-size: 101% 101%;
     margin-left: 0%;
@@ -343,9 +343,9 @@ h2:hover{
     flex-direction: column;
     background-color: #ffffff00;
     position: absolute;
-    width: 84vw;
+    width: 100vw;
     height: 69vh;
-    left: 8.5%;
+    left: 0%;
     top: 17%;
     cursor: crosshair;
 }
@@ -2663,9 +2663,44 @@ h5{
     flex-wrap: wrap;
     background-color: #00000000;
     position: absolute;
-    width: 45vw;
+    width: 35vw;
     height: 5vh;
     left: 53vw;
     top: 86%;
     cursor: default;    
+}
+.displaycount{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    position: absolute;
+    width: 4vw;
+    height: 3vh;
+    left: 96.5vw;
+    top: 97.5%;
+    cursor: default; 
+}
+h6{
+    font-kerning: auto;
+    display: inline-block;
+    position: absolute;
+    text-align: right;
+    right: 0;
+    color: rgba(255, 255, 255, 0);
+    font-size: 200%;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#counter{
+    font-kerning: auto;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
 }
