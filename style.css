@@ -121,12 +121,11 @@ a{
 
 .gradspace {
     width: 100vw;
-    height: 100vw;
-    background: radial-gradient(#ffffff,#a3a3a3 15%, #585858 30%, #000000 60%);
+    height: 100vh;
+    background: radial-gradient(#bbbbbb,#999999 10%, #666666 30%, #333333 50%, #000000 70%);
     background-repeat: no-repeat;
     background-size: 101% 101%;
     margin-left: 0%;
-    margin-top: -24%;
     animation: nebula 15s ease-in-out infinite;
 }
 
@@ -315,7 +314,6 @@ h2:hover{
     mix-blend-mode: luminosity;
 }
 
-
 @keyframes float {
     0%{
         transform: translateY(0%)
@@ -340,60 +338,314 @@ h2:hover{
     }
 }
 
-@keyframes spfloat{
-    0% {
-        background-position: 0% 0%;
-    }
-    12.5%{
-        background-position: -5% -5%;
-    }
-    25%{
-        background-position: 0% 0%;
-    }
-    37.5%{
-        background-position: -5% 5%;
-    }
-    50%{
-        background-position: 0% 0%;
-    }
-    62.5%{
-        background-position: 5% -5%;
-    }
-    75%{
-        background-position: 0% 0%;
-    }
-    87.5%{
-        background-position: 5% 5%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
-}
-
 .spcontainer{
     display:flex;
     flex-direction: column;
     background-color: #ffffff00;
     position: absolute;
-    width: 72vw;
+    width: 84vw;
     height: 69vh;
-    left: 14%;
+    left: 8.5%;
     top: 17%;
     cursor: crosshair;
 }
-
-.spcontainer14{
+.spcontainer15{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 14%;
+    left: 8.5%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
+    cursor: crosshair;
+}
+.spcontainer16{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 9.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer17{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 10.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer18{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 12.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer19{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 13.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer20{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 14.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer21{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 15.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer22{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 16.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer23{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 18.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer24{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 19.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer25{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 20.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer26{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 21.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer27{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 22.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer28{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 24.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer29{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 25.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer30{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 26.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer31{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 27.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer32{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 28.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer33{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 30.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer34{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 31.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer35{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 32.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer36{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 33.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer37{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 34.9%;
+    top: 24%;
     cursor: crosshair;
 }
 .spcontainer38{
@@ -403,11 +655,127 @@ h2:hover{
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 38%;
+    left: 36.1%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
+    cursor: crosshair;
+}
+.spcontainer39{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 37.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer40{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 38.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer41{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 39.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer42{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 40.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer43{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 42.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer44{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 43.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer45{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 44.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer46{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 45.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer47{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 46.9%;
+    top: 24%;
     cursor: crosshair;
 }
 .spcontainer48{
@@ -417,11 +785,10 @@ h2:hover{
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 48%;
+    left: 48.1%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
     cursor: crosshair;
 }
 .spcontainer49{
@@ -431,11 +798,10 @@ h2:hover{
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 49%;
+    left: 49.3%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
     cursor: crosshair;
 }
 .spcontainer50{
@@ -445,11 +811,10 @@ h2:hover{
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 50%;
+    left: 50.5%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
     cursor: crosshair;
 }
 .spcontainer51{
@@ -459,25 +824,439 @@ h2:hover{
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 51%;
+    left: 51.7%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
     cursor: crosshair;
 }
-.spcontainer85{
+.spcontainer52{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #ffffff00;
     position: absolute;
     opacity: 100%;
-    width: 1vw;
+    width: 1.2vw;
     height: 56vh;
-    left: 85%;
+    left: 52.9%;
     top: 24%;
-    animation: spfloat 15s ease-in-out infinite;
+    cursor: crosshair;
+}
+.spcontainer53{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 54.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer54{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 55.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer55{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 56.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer56{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 57.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer57{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 58.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer58{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 60.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer59{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 61.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer60{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 62.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer61{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 63.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer62{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 64.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer63{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 66.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer64{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 67.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer65{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 68.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer66{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 69.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer67{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 70.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer68{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 72.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer69{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 73.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer70{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 74.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer71{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 75.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer72{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 76.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer73{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 78.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer74{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 79.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer75{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 80.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer76{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 81.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer77{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 82.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer78{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 84.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer79{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 85.3%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer80{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 86.5%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer81{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 87.7%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer82{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 88.9%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer83{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 90.1%;
+    top: 24%;
+    cursor: crosshair;
+}
+.spcontainer84{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff00;
+    position: absolute;
+    opacity: 100%;
+    width: 1.2vw;
+    height: 56vh;
+    left: 91.3%;
+    top: 24%;
     cursor: crosshair;
 }
 
@@ -1574,20 +2353,44 @@ h2:hover{
     cursor: crosshair;
 }
 
+@keyframes spflash {
+    0%{
+        background-color: #00000000;
+    }
+    50%{
+        background-color: #000000;
+    }
+    100%{
+        background-color: #00000000;
+    }
+}
+.hidspbox1{
+    display: flex;
+    background-color: #00000000;
+    opacity: 100%;
+    height: 1.08vh;
+    width: 1.08vw;
+    margin-bottom: 11%;
+    border-radius: 100%;
+    animation: spflash 0.5s ease-in-out;
+    animation-delay: 0.5s;
+    cursor: crosshair;
+    border: none;
+}
 .spbox1{
     display: flex;
     background-color: #000000;
     opacity: 100%;
-    height: 2.857%;
-    width: 80%;
-    margin-bottom: 15%;
+    height: 1.08vh;
+    width: 1.08vw;
+    margin-bottom: 11%;
     border-radius: 100%;
     cursor: crosshair;
     border: none;
 }
 .spbox1:hover{
     background-color: #ffffff;
-    transform: scale(1.25);
+    transform: scaleY(2);
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
     transition-property: background-color, transform;
@@ -1597,9 +2400,9 @@ h2:hover{
     display: flex;
     background-color: #000000;
     opacity: 0%;
-    height: 2.857%;
-    width: 80%;
-    margin-bottom: 5%;
+    height: 1.08vh;
+    width: 1.08vw;
+    margin-bottom: 11%;
     border-radius: 100%;
     cursor: crosshair;
 }
@@ -1607,16 +2410,16 @@ h2:hover{
     display: flex;
     background-color: #ffffff;
     opacity: 100%;
-    height: 2.857%;
-    width: 80%;
-    margin-bottom: 5%;
+    height: 1.08vh;
+    width: 1.08vw;
+    margin-bottom: 11%;
     border-radius: 100%;
     cursor: crosshair;
     border: none;
 }
 .spdot:hover{
     background-color: #000000;
-    transform: scale(1.25);
+    transform: scaleY(2);
     transition-duration: 0.5s;
     transition-timing-function: ease-in-out;
     transition-property: background-color, transform;
